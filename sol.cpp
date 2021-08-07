@@ -12,6 +12,7 @@ int main() {
 		cin >> a[i];
 	}
 	int ans = INT_MAX;
+	// start the loop from the second element until the second to last element (since the 1st and last hold CANNOT be removed)
 	for (int i = 1; i < n - 1; i++) {
 		vector<int> temp;
 		// create a list wherein the current element being iterated upon is NOT included
